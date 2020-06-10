@@ -1,7 +1,7 @@
 Make sure you have installed `yarn` or `npm` package manager<br />
 ## Available Scripts
 
-### `yarn`
+### `yarn` or `yarn install`
 The command will install all packages that need to run the app.<br />
 `node_modules` folder will be created after run this command.
 
@@ -15,13 +15,14 @@ You will also see any lint errors in the console.
 
 ### `yarn build`
 
-The command use to build the project codes into a `build` folder.<br />
+The command is to build the project codes into a `build` folder.<br />
 The `build` folder used to deploy to production server.
 
-### `.env`
 
-You can create a file named `.env` to setup environment variables.<br />
-Make sure all variables in this file MUST have prefix: `REACT_APP` <br />
+## Custom app params with `.env`
+
+You can create a file named `.env` to set up environment variables.<br />
+Make sure all variables in this file MUST have prefix `REACT_APP_xxx` <br />
 We should use `.env` for local only and do not add to git
 For production environment variable, we define in `.env.production`
 ex: REACT_APP_SECRET_KEY=abcde
