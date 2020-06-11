@@ -30,3 +30,6 @@ node_modules/
 build/
 
 .idea/
+
+# we have multiple distro of .dockerignore ie it clone from docker/localhost/.dockerignore, and docker/production/.dockerignore --> we ignore its copied destination file
+.dockerignore
