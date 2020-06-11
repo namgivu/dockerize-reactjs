@@ -37,7 +37,7 @@ We use `jest` and `enzyme` and `react-testing-library`.
 ## run as docker container 
 ```bash
 # build & run as container based on config in .config.sh
-./docker/build.sh ; ./docker/run.sh
+./docker/localhost/build.sh ; ./docker/localhost/run.sh
     : the web app now is ready at localhost:20611
     
 ```

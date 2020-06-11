@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 SH=`cd $(dirname $BASH_SOURCE) && pwd`  # SH aka SCRIPT_HOME
-AH=`cd $SH/.. && pwd`  # AH aka APP_HOME
+AH=`cd $SH/../.. && pwd`  # AH aka APP_HOME
 
 source "$SH/.config.sh"
     docker stop -t1 $CONTAINER; docker rm -f $CONTAINER
